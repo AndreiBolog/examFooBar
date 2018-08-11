@@ -1,0 +1,33 @@
+p{
+    margin: auto;
+    text-align: center;
+}
+#genInfo > div > div{
+    padding: 0;
+}
+#genInfo{
+    /* margin-left: 200px; */
+    margin: auto;
+}
+.navbar{
+    display: block;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    width: 342px;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 0;
+}
+.navbar a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.navbar a:hover {
+    color: #f1f1f1;
+}
